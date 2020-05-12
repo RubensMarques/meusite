@@ -1,0 +1,35 @@
+
+.menu {
+	background-position: center;
+	background-color: white;
+}
+
+.menu li {
+	list-style: none;
+}
+.menu ul {
+
+	display: flex;
+
+	justify-content: space-around;
+}
+
+a {
+	color: red;
+	font-weight: bold; 
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	background-color: red;
+	background-image: url(caminho.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
